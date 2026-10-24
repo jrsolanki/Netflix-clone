@@ -35,3 +35,7 @@ No build tools or package installation are required. Open `index.html` in a web 
 ## Notes
 
 This is a static front-end demonstration. The sign-in button, language selector, email field, Get Started button, FAQ items, and footer links are visual elements only; they are not connected to a backend or Netflix service.
+
+## Author
+
+Jay Solanki
