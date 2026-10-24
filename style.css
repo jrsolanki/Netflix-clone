@@ -136,18 +136,36 @@ text-align: center;
     color: white;
 }
 
-.secImg{
+.secImg {
     position: relative;
 }
 
-.secImg img{
-    width: 30vw;
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
 }
 
-.secImg video{
+.secImg video {
     position: absolute;
-    top: 0;
-    left:50px;
-    right:0;
+    top: 51px;
+    right: 0;
+    
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
 
 }
